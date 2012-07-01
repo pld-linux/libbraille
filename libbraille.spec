@@ -8,7 +8,7 @@ Summary:	Library to easily access Braille displays and terminals
 Summary(pl.UTF-8):	Biblioteka łatwego dostępu do wyświetlaczy i terminali Braille'a
 Name:		libbraille
 Version:	0.19.0
-Release:	1
+Release:	2
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/libbraille/%{name}-%{version}.tar.gz
@@ -123,6 +123,7 @@ Wiązania Pythona do biblioteki libbraille.
 	%{?with_java:--enable-java --with-javainc=%{_jvmdir}/java/include --with-javaincnative=%{_jvmdir}/java/include} \
 	%{?with_python:--enable-python}
 
+# parallel build fails on docs
 %{__make} -j1
 
 %install
