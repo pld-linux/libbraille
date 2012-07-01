@@ -118,6 +118,7 @@ Wiązania Pythona do biblioteki libbraille.
 %{__autoheader}
 %{__automake}
 %configure \
+	--disable-ltdl-install \
 	%{?with_apidocs:--enable-doc} \
 	%{?with_java:--enable-java --with-javainc=%{_jvmdir}/java/include --with-javaincnative=%{_jvmdir}/java/include} \
 	%{?with_python:--enable-python}
