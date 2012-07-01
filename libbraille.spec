@@ -122,7 +122,7 @@ Wiązania Pythona do biblioteki libbraille.
 	%{?with_java:--enable-java --with-javainc=%{_jvmdir}/java/include --with-javaincnative=%{_jvmdir}/java/include} \
 	%{?with_python:--enable-python}
 
-%{__make}
+%{__make} -j1
 
 %install
 rm -rf $RPM_BUILD_ROOT
