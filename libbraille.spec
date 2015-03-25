@@ -1,14 +1,14 @@
 #
 # Conditional build:
 %bcond_without	apidocs	# do not build and package API docs
-%bcond_without	java	# Java binding
+%bcond_with	java	# Java binding
 %bcond_without	python	# Python binding
 
 Summary:	Library to easily access Braille displays and terminals
 Summary(pl.UTF-8):	Biblioteka łatwego dostępu do wyświetlaczy i terminali Braille'a
 Name:		libbraille
 Version:	0.19.0
-Release:	3
+Release:	4
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/libbraille/%{name}-%{version}.tar.gz
