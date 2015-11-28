@@ -8,7 +8,7 @@ Summary:	Library to easily access Braille displays and terminals
 Summary(pl.UTF-8):	Biblioteka łatwego dostępu do wyświetlaczy i terminali Braille'a
 Name:		libbraille
 Version:	0.19.0
-Release:	4
+Release:	5
 License:	LGPL v2.1
 Group:		Libraries
 Source0:	http://downloads.sourceforge.net/libbraille/%{name}-%{version}.tar.gz
