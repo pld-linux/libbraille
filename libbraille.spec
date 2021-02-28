@@ -71,9 +71,7 @@ Statyczna biblioteka libbraille.
 Summary:	libbraille API documentation
 Summary(pl.UTF-8):	Dokumentacja API biblioteki libbraille
 Group:		Documentation
-%if "%{_rpmversion}" >= "5"
 BuildArch:	noarch
-%endif
 
 
 %description apidocs
